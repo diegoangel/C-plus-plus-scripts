@@ -46,7 +46,7 @@ void sighandler(int signal)
 int main(void)
 {
 
-    openlog ("signal", LOG_PID, LOG_DEBUG);
+    openlog ("signal", LOG_PID, LOG_USER);
     
     struct sigaction new_sa;    
 

@@ -8,7 +8,6 @@
 #include <unistd.h>
 #include <syslog.h>
 #include <signal.h>
-#include <syslog.h>
 #include <iostream>
 #include <string>
 #include <fstream>
